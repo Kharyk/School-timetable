@@ -11,7 +11,7 @@ class Class(models.Model):
     numder_of_class = models.CharField(max_length = 50)
     
 class Subject(models.Model):
-    first_name = models.CharField(max_length=250)
+    name = models.CharField(max_length=250)
     curator = models.CharField(max_length=150)
     
 class Student(models.Model):
